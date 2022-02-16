@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--main-bg-color: #EDDF4A;
+	--second-bg-color:white;
+  }
+  
+body {
+	background: #f4f4f7;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+	padding: 0 6%;
+}
+/* navbar */
+.sticky-navbar{
+	overflow: hidden;
+	height: 82px;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar{
+	z-index: 2000;
+}
+.phone{
+	padding:5px 10px;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: var(--second-bg-color);
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
+/* title */
+
+.title{
+	color: var(--second-bg-color);
+	z-index: 100;
+}
+
+/* select */
+
+select{
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+	font-size: 0.7em;
+	padding: 1em 1.5em;
+	background-color: white;
+	border: 0;
+	width: 70%;
+
+}
+.custom-select{
+	position: relative;
+	text-align: center;
+
+}
+.custom-arrow{
+	position: absolute;
+	top: 0;
+	right: 15%;
+	display: block;
+	height: 100%;
+	width: 1rem;
+	background-color: var(--main-bg-color);
+	width: 3em;
+	pointer-events: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+img{
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+.banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('img/2020\ -\ New\ Renault\ ARKANA\ R.S\ 1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/* title */
+.heroe{
+	padding-top: 5%;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	font-size: 1.1em;
+	font-weight:100 ;
+}
+.title span{
+	font-weight: bolder;
+}
+.number{
+	font-size: 1.4em;
+}
+
+.title h2{
+	border-bottom: 1px white solid;
+}
+
+
+
